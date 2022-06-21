@@ -6,8 +6,6 @@ st.title('Count the number of cows on the farm')
 
 DATA_URL = ('https://drive.google.com/file/d/14nQpk8gInuhtlLiWr6-WedQjmDmdRF1_/view?usp=sharing')
 
-model = load_model('checkpoint_cow.h5')
-
 #Nhan file upload len
 file = st.file_uploader("Choose a file")
 name_file =st.text_input('Name of file: ')
